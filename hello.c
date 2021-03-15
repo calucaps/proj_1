@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "func.h"
 #include "subs/subs.h"
+#include "tremendous/trem.h"
 
 int doSomething(char *name){
 	printf("Doing Something %s\n",name);
@@ -13,6 +14,7 @@ int main(int agrc, char **argv){
    doSomething("Carlos Luis");
    doSpecialFunc("dxyz");
    printf("name is %s\n",returnName());
+   doTremendous();
 }
 
 
