@@ -1,3 +1,3 @@
-hello: hello.c
-	cc -o hello hello.c
+hello: hello.c func.c
+	cc -o hello hello.c func.c
 

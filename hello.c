@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "func.h"
 
 int doSomething(char *name){
 	printf("Doing Something %s\n",name);
@@ -10,6 +10,7 @@ int main(int agrc, char **argv){
    printf("Hello World\n");
    printf("This is test\n");
    doSomething("Carlos Luis");
+   doSpecialFunc("dxyz");
 }
 
 
