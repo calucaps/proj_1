@@ -8,7 +8,7 @@ int doSomething(char *name){
 }
 
 int main(int agrc, char **argv){
-   printf("Hello World\n");
+   printf("Hello World, there is hope\n");
    printf("This is test\n");
    doSomething("Carlos Luis");
    doSpecialFunc("dxyz");
