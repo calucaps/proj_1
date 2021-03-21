@@ -11,7 +11,7 @@ int main(int agrc, char **argv){
    printf("Hello World, there is hope\n");
    printf("This is test\n");
    doSomething("Carlos Luis");
-   doSpecialFunc("dxyz");
+   doSpecialFunc("xxxxdddd");
    printf("name is %s\n",returnName());
 }
 
