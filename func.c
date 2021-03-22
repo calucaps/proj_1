@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <string.h>
 
 void doSpecialFunc(char *value) {
-    printf("Doing special function %s\n", value);
+    size_t length = strlen(value);
+    printf("string %s length %zu\n", value,length);
 }

@@ -7,12 +7,13 @@ int doSomething(char *name){
 	return (25);
 }
 
-int main(int agrc, char **argv){
+int main(int argc, char **argv){
    printf("Hello World, there is hope\n");
-   printf("This is test\n");
    doSomething("Carlos Luis");
-   doSpecialFunc("xxxxdddd");
-   printf("name is %s\n",returnName());
+   doSpecialFunc(returnName());
+   for (int ii = 0; ii < argc; ii++){
+	doSpecialFunc(argv[ii]);
+   }
 }
 
 
