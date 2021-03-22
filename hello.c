@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "func.h"
 #include "subs/subs.h"
+#include "tremendous/trem.h"
 
 int doSomething(char *name){
 	printf("Doing Something %s\n",name);
